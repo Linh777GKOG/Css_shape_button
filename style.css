@@ -26,10 +26,12 @@ a {
   font-size: 1.2em;
   letter-spacing: 2px;
   transition: 0.5s;
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 9% 49%, 0% 0%);
 }
 
 a:hover {
   background: #a7b612;
   color: #fff;
   letter-spacing: 4px;
+  clip-path: polygon(100% 0%, 88% 50%, 100% 100%, 10% 100%, 0% 50%, 10% 0);
 }
